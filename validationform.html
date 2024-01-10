@@ -1,0 +1,24 @@
+<html>
+<body>
+<form action="exercise.php" method="POST">
+
+  <label><b>First Name:</b> </label><input type="text" name="firstname"><br>
+  <label><b>Middle Name:</b> </label><input type="text" name="middlename"><br>
+  <label><b>Last Name:</b> </label><input type="text" name="lastname"><br>
+  <label><b>Email:</b> </label><input type="text" name="email"><br>
+  <label><b>Sex:</b></label>
+    <select name="sex">
+      <option>Male</option>
+      <option>Female</option>
+    </select><br>
+  <label><b>Subjects Taken:</b> </label><br>
+  <input type="checkbox" value="Math" name="subjects[]">Math<br>
+  <input type="checkbox" value="Science" name="subjects[]">Science<br>
+  <input type="checkbox" value="Filipino" name="subjects[]">Filipino<br>
+  <input type="checkbox" value="English" name="subjects[]">English<br>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+
+</form> 
+</body>
+</html>
